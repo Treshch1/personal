@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing</title>
+</head>
+<body>
+    <h1>{{ info_object.first_name }} {{ info_object.last_name }}</h1>
+    <h4>{{ info_object.date_of_birth }} </h4>
+    <h3>{{ info_object.city }}</h3>
+    <h3>{{ info_object.phone_number }}</h3>
+    <h3>{{ info_object.email }}</h3>
+    <div>
+        <a href="{{ info_object.facebook_link }}">{{ info_object.facebook_link }}</a>
+        <br>
+        <a href="{{ info_object.linkedin_link }}">{{ info_object.linkedin_link }}</a>
+    </div>
+    <img src="/media/uploaded_images/image_uploaded_from_ios_1024.jpg" height="512" width="409.500">
+</body>
+</html>
